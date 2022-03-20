@@ -3,10 +3,10 @@
 	<br>Configuration de Pop!_OS<br>
 </h1>
 <p align="center">
-	<a href="https://github.com/nico-castell/PopOS-Setup/commits"><img alt="Commits since last release" src="https://img.shields.io/github/commits-since/nico-castell/PopOS-Setup/latest?label=Commits%20since%20last%20release&color=informational&logo=git&logoColor=white&style=flat-square"></a>
-	<a href="https://github.com/nico-castell/PopOS-Setup/releases"><img alt="release" src="https://img.shields.io/github/v/release/nico-castell/PopOS-Setup?color=informational&label=Release&logo=GitHub&logoColor=white&style=flat-square"></a>
-	<a href="LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/nico-castell/PopOS-Setup?color=informational&label=License&logo=Open%20Source%20Initiative&logoColor=white&style=flat-square"></a>
-	<a href="https://github.com/nico-castell/PopOS-Setup"><img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/nico-castell/PopOS-Setup?label=Lines%20of%20code&color=informational&logo=GNU%20bash&logoColor=white&style=flat-square"></a>
+	<a href="https://github.com/AntoineMeheut/PopOS-Setup/commits"><img alt="Commits since last release" src="https://img.shields.io/github/commits-since/AntoineMeheut/PopOS-Setup/latest?label=Commits%20since%20last%20release&color=informational&logo=git&logoColor=white&style=flat-square"></a>
+	<a href="https://github.com/AntoineMeheut/PopOS-Setup/releases"><img alt="release" src="https://img.shields.io/github/v/release/AntoineMeheut/PopOS-Setup?color=informational&label=Release&logo=GitHub&logoColor=white&style=flat-square"></a>
+	<a href="LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/AntoineMeheut/PopOS-Setup?color=informational&label=License&logo=Open%20Source%20Initiative&logoColor=white&style=flat-square"></a>
+	<a href="https://github.com/AntoineMeheut/PopOS-Setup"><img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/AntoineMeheut/PopOS-Setup?label=Lines%20of%20code&color=informational&logo=GNU%20bash&logoColor=white&style=flat-square"></a>
 </p>
 
 <h2 align="center">Comment l'utiliser</h2>
