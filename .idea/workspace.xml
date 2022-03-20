@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6614348-ba19-46a5-aea7-73189af1c7a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/post-install.d/secure.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/post-install.d/some-last-conf.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deskcuts/disneyplus.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deskcuts/geary-autostart.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deskcuts/msoffice.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deskcuts/netflix.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deskcuts/pwsh.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flatpaks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flatpaks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/packages.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/popOS_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/popOS_setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/fakeroot.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/git.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/gnome-builder.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/golang.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/lm-sensors.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/neovim.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/nodejs.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/post-install.d/ufw.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remove.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remove.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/dotnet-sdk-3.1.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/dotnet-sdk-5.0.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/google-chrome-stable.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/signal-desktop.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/spotify-client.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.d/vivaldi.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

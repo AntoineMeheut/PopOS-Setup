@@ -44,7 +44,7 @@ qui sera la dernière version stable connue.
 	```shell
 	$ ./popOS_setup.sh
 	```
-6. Follow the instructions from the script.
+6. Suivez alors les instructions du script.
 7. Ce script vous demandera d'autres instructions au fur et à mesure qu'il fera son travail.
 
 <h2 align="center">Gardez à l'esprit</h2>
@@ -54,7 +54,7 @@ qui sera la dernière version stable connue.
     [Pop!_OS](https://pop.system76.com/). Cela peut donc prendre du temps, en fonction de votre connexion
 Internet.
 - Si vous utilisez un ancien GPU nvidia non pris en charge par le dernier pilote nvidia, il pourrait être préférable
-    de télécharger le [Pop!_OS](https://pop.system76.com/) ISO sans leur pilote personnalisé, puis
+    de télécharger l'ISO [Pop!_OS](https://pop.system76.com/) sans leur pilote personnalisé, puis
     de choisir le dernier pilote prenant en charge votre GPU dans la liste proposée par le script.
 
 <h2 align="center">Fonctionnalités</h2>
@@ -65,7 +65,7 @@ Ce projet peut mettre en place des fonctionnalités puissantes, telles que :
 	<p align="center"><img width="600" height="315" src="assets/prompts.png"></p>
 - "Powerline plugin" pour l'éditeur **Vim** :
 	<p align="center"><img width="600" height="390" src="assets/vim-powerline.png"></p>
-- Listes facilement extensibles de packages avec lesquels le script peut fonctionner : [packages.txt](packages.txt),
+- Vous trouverez plusieurs listes facilement extensibles de packages avec lesquels le script peut fonctionner : [packages.txt](packages.txt),
 	[flatpaks.txt](flatpaks.txt) and [remove.txt](remove.txt)
 - Prise en compte de scripts shell supplémentaires que vous pouvez ajouter à votre convenance.
 - Un [script](scripts/mc_server_builder.sh) pour configurer un serveur minecraft.
@@ -74,10 +74,7 @@ Ce projet peut mettre en place des fonctionnalités puissantes, telles que :
 
 <h2 align="center">Problèmes connus</h2>
 
-1. [*duc_noip_install*](duc_noip_install): L'installateur ne semble pas comprendre les symboles lorsque
-vous tapez un mot de passe, du moins sur mes tests, le script ouvre *gedit* pour que vous puissiez copier/coller votre
-mot de passe et contourner le problème.
-2. [*mc_server_builder*](mc_server_builder): Le lien pour télécharger la dernière version du serveur
+1. Le lien pour télécharger la dernière version du serveur
 doit être mis à jour manuellement la version de minecraft que vous souhaitez installer.
 
 <h2 align="center">Licence</h2>
@@ -85,6 +82,7 @@ doit être mis à jour manuellement la version de minecraft que vous souhaitez i
 Ce référentiel, et toutes les contributions à ce référentiel, sont sous la [LICENCE MIT](LICENSE).
 Ce logiciel peut également installer des packages sous différentes licences, la licence de ce projet ne
 s'appliquer à eux, voir chaque paquet.
+
 
 > *Lorsque vous dites «le droit à la vie privée ne me préoccupe pas, parce que je n'ai rien à cacher», cela ne fait aucune différence avec le fait de dire «Je me moque du droit à la liberté d'expression parce que je n'ai rien à dire», ou «de la liberté de la presse parce que je n'ai rien à écrire»*.  
 > *Edward Snowden*
