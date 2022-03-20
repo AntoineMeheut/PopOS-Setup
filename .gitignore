@@ -17,5 +17,8 @@ $RECYCLE.BIN/
 # Backups (I mean... we have git.)
 Backup*/
 
+# Configure igore of jetbrain conf
+.idea
+
 # Configure ignore for Mac Os X files
 .DS_Store
