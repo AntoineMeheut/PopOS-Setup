@@ -11,7 +11,5 @@ CPod com.github.z.Cumulonimbus
 PyCharm com.jetbrains.PyCharm-Community
 Notepadqq com.notepadqq.Notepadqq
 GitHubDesktop io.github.shiftey.Desktop
-KTorrent org.kde.ktorrent
-JDownloader org.jdownloader.JDownloader
 
 

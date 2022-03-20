@@ -101,8 +101,6 @@ Virtual_Box , Visual_Studio_Code , Visual_Studio_Code_Insiders , VS_Codium
 - PyCharm
 - Notepadqq
 - GitHubDesktop
-- KTorrent
-- JDownloader
 
 <h2 align="center">Logiciels qui seront retirés, fichier remove.txt</h2>
 
