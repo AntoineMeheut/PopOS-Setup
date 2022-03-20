@@ -10,7 +10,6 @@ Applications et outils pour développer
 	Git_&_Gitg git git-lfs gitg
 	GNOME_Boxes gnome-boxes
 	GNOME_Builder gnome-builder
-	Go_Language golang
 	Java_JDK default-jdk
 	Java_Runtime default-jre
 	Kernel_development build-essentials fakeroot ncurses-dev xz-utils zstd libssl-dev bc flex libelf-dev bison

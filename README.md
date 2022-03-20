@@ -77,8 +77,8 @@ Ce projet peut mettre en place des fonctionnalités puissantes, telles que :
 - Applications audio : Audacity
 - Applications video : OBS_Studio, VLC
 - Applications et outils pour développer : C/C++_development, CMake, Debian_Packaging_(.deb), Git_&_Gitg , GNOME_Boxes ,
-GNOME_Builder , Go_Language , Java_JDK , Java_Runtime , Kernel_development , Ninja_Build , Node.JS , Virt_Manager ,
-Virtual_Box , Visual_Studio_Code , Visual_Studio_Code_Insiders , VS_Codium
+GNOME_Builder , Java_JDK , Java_Runtime , Kernel_development , Ninja_Build , Node.JS , Virt_Manager , Virtual_Box , 
+Visual_Studio_Code , Visual_Studio_Code_Insiders , VS_Codium
 - Jeux : cmatrix , Discord , GNOME_Chess , GNOME_Mines , Steam , Terminal_fun
 - Applications pour les images : GIMP , Inkscape , Krita
 - Navigateurs Web : Brave_Browser , Chromium
