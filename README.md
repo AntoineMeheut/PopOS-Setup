@@ -74,7 +74,9 @@ Ce projet peut mettre en place des fonctionnalités puissantes, telles que :
 
 <h2 align="center">Logiciels qui seront installés, fichier packages.txt</h2>
 - Applications audio : Audacity
+
 - Applications video : OBS_Studio, VLC
+
 - Applications et outils pour développer : C/C++_development, CMake, Debian_Packaging_(.deb), Git_&_Gitg , GNOME_Boxes ,
 GNOME_Builder , Go_Language , Java_JDK , Java_Runtime , Kernel_development , Ninja_Build , Node.JS , Virt_Manager ,
 Virtual_Box , Visual_Studio_Code , Visual_Studio_Code_Insiders , VS_Codium 
