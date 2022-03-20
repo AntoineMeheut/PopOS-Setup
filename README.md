@@ -73,6 +73,7 @@ Ce projet peut mettre en place des fonctionnalités puissantes, telles que :
 - Un [script](scripts/update_recovery.sh) pour mettre à jour votre partition de récupération.
 
 <h2 align="center">Logiciels qui seront installés, fichier packages.txt</h2>
+
 - Applications audio : Audacity
 
 - Applications video : OBS_Studio, VLC
