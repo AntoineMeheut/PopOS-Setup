@@ -95,20 +95,21 @@ Virtual_Box , Visual_Studio_Code , Visual_Studio_Code_Insiders , VS_Codium
 - Utilitaires divers : 7zip p7zip-full , dconf-Editor , GNOME_Tweaks , GParted , Neofetch , Neovim , Tree , Vim
 
 <h2 align="center">Logiciels qui seront installés, fichier flatpaks.txt</h2>
+
 - Bitwarden
 - Discord
-- GitKraken 
+- GitKraken
 - KdenLive
-- Firefox 
-- Shortwave 
-- TorBrowser 
-- Kodi 
-- HandBrake 
-- CPod 
-- PyCharm 
-- Notepadqq 
-- GitHubDesktop 
-- KTorrent 
+- Firefox
+- Shortwave
+- TorBrowser
+- Kodi
+- HandBrake
+- CPod
+- PyCharm
+- Notepadqq
+- GitHubDesktop
+- KTorrent
 - JDownloader
 
 <h2 align="center">Logiciels qui seront retirés, fichier remove.txt</h2>
