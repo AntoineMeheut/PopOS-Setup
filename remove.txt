@@ -1,4 +1,3 @@
-Firefox firefox*
 Geary_Mail geary
 Libre_Office libreoffice*
 Eddy com.github.donadigo.eddy

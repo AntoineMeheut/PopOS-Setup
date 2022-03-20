@@ -17,10 +17,5 @@ $RECYCLE.BIN/
 # Backups (I mean... we have git.)
 Backup*/
 
-# Configure ignore and track for Visual Studio and Visual Studio Code
-.vs/*
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Configure ignore for Mac Os X files
+.DS_Store

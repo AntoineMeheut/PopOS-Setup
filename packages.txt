@@ -1,17 +1,13 @@
 Audio Apps for working with audio
 	Audacity audacity
-	Spotify spotify-client
 AudioVideo Apps for working with audio-video
 	OBS_Studio obs-studio
 	VLC vlc
 Development Apps and tools for developers
-	.NET_3.1_SDK dotnet-sdk-3.1 aspnetcore-runtime-3.1
-	.NET_5.0_SDK dotnet-sdk-5.0 aspnetcore-runtime-5.0
 	C/C++_development build-essential
 	CMake cmake
 	Debian_Packaging_(.deb) dpkg-dev debhelper
 	Git_&_Gitg git git-lfs gitg
-	Glade glade
 	GNOME_Boxes gnome-boxes
 	GNOME_Builder gnome-builder
 	Go_Language golang
@@ -39,11 +35,7 @@ Graphics Apps for working with images and graphic design
 Network Web browsers and networking apps
 	Brave_Browser brave-browser
 	Chromium chromium-browser
-	Google_Chrome google-chrome-stable
-	Signal_Desktop signal-desktop
-	Vivaldi vivaldi
 Office Apps to work
-	Geary_Mail geary
 	Thunderbird thunderbird
 System Shells and apps to configure and monitor the system
 	HTOP htop
@@ -56,9 +48,7 @@ Utilities Apps such as terminal emulators, text editors, tools, and other stuff
 	dconf-Editor dconf-editor
 	GNOME_Tweaks gnome-tweaks gnome-shell-extensions
 	GParted gparted
-	Kitty_Terminal kitty
 	Neofetch neofetch
 	Neovim neovim
-	Trash_CLI trash-cli
 	Tree tree
 	Vim vim
