@@ -12,6 +12,9 @@ Applications et outils pour développer
 	GNOME_Builder gnome-builder
 	Java_JDK default-jdk
 	Java_Runtime default-jre
+	python3.9.11
+	python3.8.13
+	python3.7.13
 	Kernel_development build-essentials fakeroot ncurses-dev xz-utils zstd libssl-dev bc flex libelf-dev bison
 	Ninja_Build ninja-build
 	Node.JS nodejs
