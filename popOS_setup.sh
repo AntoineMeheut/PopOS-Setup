@@ -1,22 +1,31 @@
 #!/bin/bash
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Script de configuration de Pop!_OS et d'installation des logiciels de mon Setup
+#----------------------------------------------------------------------------------------------------------------------#
 # MIT License - Copyright (c) 2021 Nicolás Castellán <cnicolas.developer@gmail.com>
 # MIT License - Copyright (c) 2022 Antoine Meheut <antoine.meheut@watay.fr>
 # Identifiant de licence SPDX : MIT
 # LE LOGICIEL EST FOURNI "TEL QUEL"
 # Lisez le fichier de LICENCE inclus pour plus d'informations
-
-# Configuration de variables de ce script pour les utiliser plus tard
+#----------------------------------------------------------------------------------------------------------------------#
+# Variables d'exécution de ce script
+# - load_tmp_file : utilisée pour indiquer que l'on souhaite charger un fichier pour le script, défaut = no
+# - run_as_root : utilisée pour indiquer que le script doit s'exécuter en tant que root, défaut =no
 load_tmp_file=no
 run_as_root=no
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Partie du script pour la lecture des variables de lancement du script
+# Lit les variables et vérifie si load_tmp_file ou run_as_root sont utilisés
+#----------------------------------------------------------------------------------------------------------------------#
 USAGE_MSG () {
 	printf "Paramètres du script shell: \e[01m./%s (-f)\e[00m
 	-f) Charger les choix précédents
 	-s) Exécuter en tant que root (non recommandé)\n" "$(basename "$0")"
 }
 
-# Options de processus
+# Lecture des variables du script
 while [ -n "$1" ]; do
 	case "$1" in
 		-f) load_tmp_file=yes ;; # Charger depuis un fichier temporaire
@@ -32,6 +41,9 @@ while [ -n "$1" ]; do
 		;;
 esac; shift; done
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Partie du script pour rechercher les différents fichiers .txt avec les choix de l'utilisateur
+#----------------------------------------------------------------------------------------------------------------------#
 # Récupère le path du répertoire du script et le sauvegarde pour l'utiliser plus tard
 cd "$(dirname "$0")"
 script_location="$(pwd)"
@@ -68,6 +80,10 @@ Separate () {
 	printf "\n\n\e[34m%`tput cols`s\e[00m\n" | tr ' ' '='
 }
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Préviens l'utilisateur sur les droits root, demande le privilège root et affiche des informations
+# avant que le script ne débute sont action sur le système
+#----------------------------------------------------------------------------------------------------------------------#
 # Préviens que le script ne doit pas être exécuté en tant que root
 if [ $(id -u) == 0 -a "$run_as_root" = "no" ]; then
 	printf "\e[31mLe script ne doit pas fonctionner en tant que root, car certaines choses pourraient se casser\e[00m
@@ -92,6 +108,11 @@ Suivez les instructions et vous devriez être opérationnel bientôt
 LE LOGICIEL EST FOURNI \"TEL QUEL\", lisez la licence pour plus d'informations\n\n" "$version"
 unset version commit
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Charge le fichier temporaire ou bien commence à préparer le fichier qui va contenir toutes les actions
+# qui vont être réalisées sur le système Pop!_OS. Partie du script où les fichiers .txt de choix de
+# l'utilisateur sont lus, ainsi que la liste des scripts shell qui vont être exécutés
+#----------------------------------------------------------------------------------------------------------------------#
 #Invite l'utilisateur a faire ses choix de région
 if [ "$load_tmp_file" = "no" ]; then
 	# Nous sommes sur le point de créer un nouveau fichier de choix
@@ -208,6 +229,10 @@ if [ "$load_tmp_file" = "no" ]; then
 fi
 # Fin de la partie initialisation et choix d'installation
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Copie des les différentes variables qui vont être utilisées les informations issues de la lecture des
+# fichier .txt et de la liste des scripts schell
+#----------------------------------------------------------------------------------------------------------------------#
 # Chargement des choix à partir du fichier
 if [ "$load_tmp_file" = "yes" ]; then
 	# Erreur s'il n'y a pas de choix précédents
@@ -242,8 +267,9 @@ if [ "$load_tmp_file" = "yes" ]; then
 fi
 # Fin du chargement des choix
 
-# Partie du script qui va exécuter toutes les actions dans le système d'exploitation
-
+#----------------------------------------------------------------------------------------------------------------------#
+# Partie du script qui va exécuter toutes les actions dans le système d'exploitation Pop!_OS
+#----------------------------------------------------------------------------------------------------------------------#
 # Réglez l'heure du BIOS sur UTC
 sudo timedatectl set-local-rtc 0
 
@@ -354,7 +380,9 @@ done
 
 Separate
 
-# Nettoye après que nous ayons fini
+#----------------------------------------------------------------------------------------------------------------------#
+# Nettoyage une fois que le script a terminé ses actions
+#----------------------------------------------------------------------------------------------------------------------#
 printf "Nettoyage ...\n"
 [ -f "$autoresume_file" ] && rm "$autoresume_file"
 [ -f "$choices_file"    ] && rm "$choices_file"
