@@ -16,13 +16,13 @@ Je suppose que vous venez d'installer [Pop!_OS](https://pop.system76.com/) avec 
 1. Clonez ce dépôt, vous pouvez faire un clone superficiel si vous le souhaitez (en ajoutant `--depth=1` à la ligne
 de commande).
 	```shell
-	$ git clone https://github.com/nico-castell/PopOS-Setup.git
+	$ git clone https://github.com/AntoineMeheut/PopOS-Setup.git
 	```
 2. Étant donné que la branche principale est toujours en développement, vous voudrez peut-être vérifier le dernier tag,
 qui sera la dernière version stable connue.
 	```shell
-	$ git checkout $(git describe --tags --abrev=0) # Go to the last tag
-	$ git checkout main                             # Go back to main
+	$ git checkout $(git describe --tags --abrev=0) # Aller à la dernière branche
+	$ git checkout main                             # Retour à la principale branche
 	```
 3. (Facultatif) Consultez les instructions dans le script thme [gnome_apperance](scripts/gnome_appearance.sh),
 	et configurez la structure de fichiers du script pour configurer l'apparence de GNOME avec vos thèmes.
