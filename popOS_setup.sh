@@ -142,12 +142,12 @@ if [ "$load_tmp_file" = "no" ]; then
 	echo "Logiciels à supprimer - ${TO_REMOVE[@]}" >> "$choices_file"
 
 	# Parcoure la liste packages.txt en demandant à l'utilisateur de choisir ceux à installer
-	cat "$packages_file"
 	printf "Confirmer les packages à installer :\n"
 	for i in $(cat "$packages_file"); do
 		echo "$i" > $MEMFILE && chmod u-w $MEMFILE
 
 		# Détecte la catégorie et le choix de l'utilisateur d'ignorer ou de ne pas ignorer
+		echo -n "$(awk '$0 ~ /^\S/' $MEMFILE)"
 		if [ -n "$(awk '$0 ~ /^\S/' $MEMFILE)" ]; then
 			read -rp "$(printf "Voulez-vous installer \e[01;33m%s\e[00m ? (%s) (Y/n) > " "$(awk '{print $1}' $MEMFILE | tr '_' ' ')" "$(cut -d' ' -f2- $MEMFILE)")"
 			[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && SKIP_CATEGORY=no || SKIP_CATEGORY=yes
