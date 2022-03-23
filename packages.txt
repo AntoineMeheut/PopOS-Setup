@@ -1,9 +1,9 @@
-Applications audio
+#Applications audio
 	Audacity audacity
-Applications video
+#Applications video
 	OBS_Studio obs-studio
 	VLC vlc
-Applications et outils pour développer
+#Applications et outils pour développer
 	C/C++_development build-essential
 	CMake cmake
 	Debian_Packaging_(.deb) dpkg-dev debhelper
@@ -23,26 +23,26 @@ Applications et outils pour développer
 	Visual_Studio_Code code
 	Visual_Studio_Code_Insiders code-insiders
 	VS_Codium codium
-Jeux
+#Jeux
 	cmatrix cmatrix
 	Discord discord
 	GNOME_Chess gnome-chess
 	GNOME_Mines gnome-mines
 	Steam steam
 	Terminal_fun fortune cowsay toilet figlet lolcat
-Applications pour les images
+#Applications pour les images
 	Inkscape inkscape
 	Krita krita
-Navigateurs Web et applications réseau
+#Navigateurs Web et applications réseau
 	Brave_Browser brave-browser
 	Chromium chromium-browser
-System Shells et applications pour configurer et surveiller le système
+#System Shells et applications pour configurer et surveiller le système
 	HTOP htop
 	LM_Sensors lm-sensors hddtemp
 	TLP tlp powertop
 	Ubuntu_Restricted_Extras ubuntu-restricted-extras
 	Z-Shell zsh zsh-syntax-highlighting zsh-autosuggestions fonts-powerline python3-pip
-Utilitaires telles que des émulateurs de terminaux, des éditeurs de texte, des outils et d'autres éléments
+#Utilitaires telles que des émulateurs de terminaux, des éditeurs de texte, des outils et d'autres éléments
 	7zip p7zip-full
 	dconf-Editor dconf-editor
 	GNOME_Tweaks gnome-tweaks gnome-shell-extensions
