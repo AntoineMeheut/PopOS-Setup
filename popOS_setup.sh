@@ -147,17 +147,12 @@ if [ "$load_tmp_file" = "no" ]; then
 		echo "$i" > $MEMFILE && chmod u-w $MEMFILE
 
 		# Détecte la catégorie et le choix de l'utilisateur d'ignorer ou de ne pas ignorer
-		if [ -n "$(awk '$0 ~ /^\#/' $MEMFILE)" ]; then
-			read -rp "$(printf "Voulez-vous installer \e[01;33m%s\e[00m ? (%s) (Y/n) > " "$(awk '{print $1}' $MEMFILE | tr '_' ' ')" "$(cut -d' ' -f2- $MEMFILE)")"
-			[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && SKIP_CATEGORY=no || SKIP_CATEGORY=yes
-			# Traite les applications en catégories
-			if [ -n "$(awk '$0 ~ /\t/' $MEMFILE)" -a "$SKIP_CATEGORY" = 'non' ]; then
-				read -rp "$(printf "Logiciels à installer : \e[33m%s\e[00m (Y/n) " "$(awk '{print $1}' $MEMFILE | tr '_' ' ')")"
-				[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && \
-				TO_DNF+=($(cut -d' ' -f2- $MEMFILE))
-			fi
+		if [ -n "$(awk '$0 ~ /\t/' $MEMFILE)" ]; then
+			read -rp "$(printf "Logiciels à installer : \e[33m%s\e[00m (Y/n) " "$(awk '{print $1}' $MEMFILE | tr '_' ' ')")"
+			[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && \
+			TO_DNF+=($(cut -d' ' -f2- $MEMFILE))
 		fi
-
+		
 		chmod u+w $MEMFILE
 	done
 
