@@ -152,7 +152,7 @@ if [ "$load_tmp_file" = "no" ]; then
 			[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && \
 			TO_DNF+=($(cut -d' ' -f2- $MEMFILE))
 		fi
-		
+
 		chmod u+w $MEMFILE
 	done
 
