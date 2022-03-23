@@ -142,6 +142,7 @@ if [ "$load_tmp_file" = "no" ]; then
 	echo "Logiciels à supprimer - ${TO_REMOVE[@]}" >> "$choices_file"
 
 	# Parcoure la liste packages.txt en demandant à l'utilisateur de choisir ceux à installer
+	cat "$packages_file"
 	printf "Confirmer les packages à installer :\n"
 	for i in $(cat "$packages_file"); do
 		echo "$i" > $MEMFILE && chmod u-w $MEMFILE
