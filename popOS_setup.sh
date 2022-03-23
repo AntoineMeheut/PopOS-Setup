@@ -147,7 +147,7 @@ if [ "$load_tmp_file" = "no" ]; then
 		echo "$i" > $MEMFILE && chmod u-w $MEMFILE
 
 		# Détecte la catégorie et le choix de l'utilisateur d'ignorer ou de ne pas ignorer
-		echo [ -n "$(awk '$0 ~ /^\S/' $MEMFILE)" ]
+		echo "$(awk '$0 ~ /^\S/' $MEMFILE)"
 		if [ -n "$(awk '$0 ~ /^\S/' $MEMFILE)" ]; then
 			read -rp "$(printf "Voulez-vous installer \e[01;33m%s\e[00m ? (%s) (Y/n) > " "$(awk '{print $1}' $MEMFILE | tr '_' ' ')" "$(cut -d' ' -f2- $MEMFILE)")"
 			[ "${REPLY,,}" == 'y' -o -z "$REPLY" ] && SKIP_CATEGORY=no || SKIP_CATEGORY=yes
