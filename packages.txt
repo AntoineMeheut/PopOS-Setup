@@ -31,14 +31,11 @@ Jeux
 	Steam steam
 	Terminal_fun fortune cowsay toilet figlet lolcat
 Applications pour les images
-	GIMP gimp
 	Inkscape inkscape
 	Krita krita
 Navigateurs Web et applications réseau
 	Brave_Browser brave-browser
 	Chromium chromium-browser
-Gestion des mails
-	Thunderbird thunderbird
 System Shells et applications pour configurer et surveiller le système
 	HTOP htop
 	LM_Sensors lm-sensors hddtemp

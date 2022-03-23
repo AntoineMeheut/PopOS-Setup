@@ -2,7 +2,6 @@ Bitwarden com.bitwarden.desktop
 Discord com.discordapp.Discord
 GitKraken com.axosoft.GitKraken
 KdenLive org.kde.kdenlive
-Firefox org.mozilla.firefox
 Shortwave de.haeckerfelix.Shortwave
 TorBrowser com.github.micahflee.torbrowser-launcher
 Kodi tv.kodi.Kodi
@@ -11,5 +10,8 @@ CPod com.github.z.Cumulonimbus
 PyCharm com.jetbrains.PyCharm-Community
 Notepadqq com.notepadqq.Notepadqq
 GitHubDesktop io.github.shiftey.Desktop
+Gimp org.gimp.GIMP
+ProtonBridge ch.protonmail.protonmail-bridge
+Thunderbird org.mozilla.Thunderbird
 
 

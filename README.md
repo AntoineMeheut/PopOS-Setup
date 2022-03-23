@@ -92,7 +92,6 @@ GNOME_Builder , Java_JDK , Java_Runtime , Python 3.9.11, Python 3.8.13, Python 3
 - Discord
 - GitKraken
 - KdenLive
-- Firefox
 - Shortwave
 - TorBrowser
 - Kodi
@@ -100,7 +99,9 @@ GNOME_Builder , Java_JDK , Java_Runtime , Python 3.9.11, Python 3.8.13, Python 3
 - CPod
 - PyCharm
 - Notepadqq
-- GitHubDesktop
+- Gimp
+- ProtonBridge
+- Thunderbird
 
 <h2 align="center">Logiciels qui seront retirés, fichier remove.txt</h2>
 
