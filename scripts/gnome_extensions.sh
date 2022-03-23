@@ -8,25 +8,9 @@
 
 (xdg-open "https://extensions.gnome.org/extension/906/sound-output-device-chooser/" &>/dev/null) &
 (xdg-open "https://extensions.gnome.org/extension/97/coverflow-alt-tab/" &>/dev/null) &
-(xdg-open "https://extensions.gnome.org/extension/307/dash-to-dock/" &>/dev/null) &
 (xdg-open "https://extensions.gnome.org/extension/779/clipboard-indicator/" &>/dev/null) &
 
 read -p "Press enter to continue... "
-
-read -p "Did you install \"dash-to-dock\"? (Y/n) "
-if [[ ${REPLY,,} == "y" ]] || [[ -z $REPLY ]]; then
-	printf "Configuring \e[33mDash to Dock\e[00m...\n"
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock show-trash false
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock show-mounts false
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock transparency-mode DYNAMIC
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock max-alpha 0.8
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock min-alpha 0.4
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock dock-position LEFT
-	gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock running-indicator-style "'SEGMENTED'"
-	# gsettings --schemadir ~/.local/share/gnome-shell/extensions/dash-to-dock*/schemas/ set org.gnome.shell.extensions.dash-to-dock animate-show-apps false
-fi
 
 read -p "Did you install \"Sound Output Device Chooser\"? (Y/n) "
 if [[ ${REPLY,,} == "y" ]] || [[ -z $REPLY ]]; then
