@@ -25,7 +25,6 @@
 	VS_Codium codium
 #Jeux
 	cmatrix cmatrix
-	Discord discord
 	GNOME_Chess gnome-chess
 	GNOME_Mines gnome-mines
 	Steam steam
